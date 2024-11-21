@@ -16,7 +16,7 @@ function Newsapp() {
 
   useEffect(() => {
     getData();
-  }, []);
+  }, [search]);
 
   const handleInput = (event) => {
     const searchWord = event.target.value;
@@ -48,19 +48,19 @@ function Newsapp() {
         <p className="headline">Stay updated with Trendy News</p>
       </div>
       <div className="category-btn">
-        <button onClick={() => userBtn()} value="Entertainment">
+        <button onClick={(event) => userBtn(event)} value="Entertainment">
           Entertainment
         </button>
-        <button onClick={() => userBtn()} value="Fitness">
+        <button onClick={(event) => userBtn(event)} value="Fitness">
           Fitness
         </button>
-        <button onClick={() => userBtn()} value="Health">
+        <button onClick={(event) => userBtn(event)} value="Health">
           Health
         </button>
-        <button onClick={() => userBtn()} value="Politics">
+        <button onClick={(event) => userBtn(event)} value="Politics">
           Politics
         </button>
-        <button onClick={() => userBtn()} value="Sports">
+        <button onClick={(event) => userBtn(event)} value="Sports">
           Sports
         </button>
       </div>
