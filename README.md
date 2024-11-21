@@ -13,16 +13,6 @@ A dynamic and stylish **news app** that fetches the latest articles from around 
 
 ---
 
-## 📸 Screenshots
-
-### Homepage
-![Homepage](link-to-homepage-screenshot)
-
-### Search Results
-![Search](link-to-search-results-screenshot)
-
----
-
 ## 🛠️ Technologies Used
 
 - **Frontend:**
@@ -33,8 +23,4 @@ A dynamic and stylish **news app** that fetches the latest articles from around 
 
 ---
 
-## 🖥️ Installation and Setup
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/modern-news-app.git
